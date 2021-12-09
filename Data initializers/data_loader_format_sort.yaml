@@ -1,0 +1,27 @@
+data_directory: "./Data/"
+data_name: "aggregated_alarms_interval_sort.csv"
+cell_id: 'CELL_ID'
+type: 'TYPE'
+occurrence_time: 'OCCURRENCE_TIME'
+interval_lower_limit: 'INTERVAL_LOWER_LIMIT'
+interval_upper_limit: 'INTERVAL_UPPER_LIMIT'
+created_time: 'CREATED_TIME'
+interval_number: 'INTERVAL_NUMBER'
+severity: 'SEVERITY'
+description: 'DESCRIPTION'
+weights:
+  CLEARED: 1
+  WARNING: 2
+  MINOR: 3
+  INDETERMINATE: 4
+  MAJOR: 5
+  CRITICAL: 6
+
+
+
+
+
+
+
+
+

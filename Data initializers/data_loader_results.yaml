@@ -1,0 +1,12 @@
+data_directory: "./Data/"
+data_name: "Results.xlsx"
+sheet_number_of_alarms: 'Number of alarms'
+sheet_average_number_of_alarms:
+sheet_inter_arrival_time: 'Inter-arrival time'
+sheet_type_description: 'Type-Description'
+type: 'TYPE'
+cell_id: 'CELL_ID'
+interval_number: 'INTERVAL_NUMBER'
+description: 'DESCRIPTION'
+number_of_alarms: 'NUMBER_OF_ALARMS'
+weighted_number_of_alarms: 'WEIGHTED_NUMBER_OF_ALARMS'

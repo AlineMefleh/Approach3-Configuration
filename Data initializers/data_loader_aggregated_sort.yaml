@@ -1,0 +1,19 @@
+data_directory: "./Data/"
+data_name: "aggregated_alarms_sort.csv"
+data_saved: "aggregated_alarms_interval.csv"
+interval_saved: 'intervals.csv'
+interval_lower_limit: 'lower_limit'
+interval_upper_limit: 'upper_limit'
+cell_id: 'CELL_ID'
+id: 'ID'
+alarm_sid: 'ALARM_SID'
+severity: 'SEVERITY'
+type: 'TYPE'
+occurrence_time: 'OCCURRENCE_TIME'
+created_time: 'CREATED_TIMESTAMP'
+description: 'DESCRIPTION'
+interval_length: 30
+interval_window: 5
+axis: 1
+
+

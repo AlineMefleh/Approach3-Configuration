@@ -1,0 +1,15 @@
+#INITIAL SETTINGS
+data_directory: "./Data/"
+data_name: "alarms.csv"
+data_saved: "alarms_sample.csv"
+type: "TYPE"
+occurrence_time: 'OCCURRENCE_TIME'
+interval_start: '2021-08-01 00:00:00'
+interval_end: '2021-08-06 23:59:59'
+replace:
+  'Other': 'other'
+  'Communications alarm': 'communicationsAlarm'
+  'Quality Of Service': 'qualityOfServiceAlarm'
+  'PROCESSING ERROR': 'processingErrorAlarm'
+
+

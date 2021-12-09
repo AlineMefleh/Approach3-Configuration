@@ -1,0 +1,11 @@
+data_directory: "./Data/"
+data_name: "aggregated_alarms_interval.csv"
+data_saved: "aggregated_alarms_interval_sort.csv"
+cell_id: "CELL_ID"
+type: "TYPE"
+occurrence_time: "OCCURRENCE_TIME"
+interval_number: 'INTERVAL_NUMBER'
+inter_arrival_time: 'INTER_ARRIVAL_TIME'
+inter_arrival_time_min: 'INTER_ARRIVAL_TIME(min)'
+
+

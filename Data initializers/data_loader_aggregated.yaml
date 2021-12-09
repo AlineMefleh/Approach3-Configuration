@@ -1,0 +1,11 @@
+data_directory: "./Data/"
+data_name: "aggregated_alarms.csv"
+data_saved: "aggregated_alarms_sort.csv"
+cell_id: "CELL_ID"
+alarm_sid: "ALARM_SID"
+severity: "SEVERITY"
+type: "TYPE"
+occurrence_time: "OCCURRENCE_TIME"
+axis: 0
+
+
