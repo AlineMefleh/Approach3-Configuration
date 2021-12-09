@@ -5,6 +5,7 @@ cell_id: "CELL_ID"
 alarm_sid: "ALARM_SID"
 severity: "SEVERITY"
 type: "TYPE"
+description: 'DESCRIPTION'
 occurrence_time: "OCCURRENCE_TIME"
 axis: 0
 

@@ -17,7 +17,7 @@ weights:
   MAJOR: 5
   CRITICAL: 6
 
-
+inter_arrival_time_min: 'INTER_ARRIVAL_TIME(min)'
 
 
 
