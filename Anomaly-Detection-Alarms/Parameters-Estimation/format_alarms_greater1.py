@@ -45,12 +45,14 @@ for type in type_list:
                                     'INTERVAL_UPPER_LIMIT': interval_alarms_type_cell_interval[config['interval_upper_limit']][j],
                                     'DESCRIPTION': interval_alarms_type_cell_interval[config['description']][j]}, ignore_index=True)
 
-'''from openpyxl import load_workbook
+config_results = load_config("data_loader_results.yaml")
 
-path_result = r"C:\\Users\\User\\Desktop\\B-Yond\\New_paper-Alarms\\Approach3-Sample2\\Results.xlsx"
+from openpyxl import load_workbook
+
+path_result = os.path.join(config_results["data_directory"], config_results["data_name"])
 book = load_workbook(path_result)
 writer_result = pd.ExcelWriter(path_result, engine='openpyxl')
 writer_result.book = book
-type_description.to_excel(writer_result, sheet_name='Type-Description')
+
+type_description.to_excel(writer_result, sheet_name=config_results["sheet_type_description"])
 writer_result.save()
-'''
