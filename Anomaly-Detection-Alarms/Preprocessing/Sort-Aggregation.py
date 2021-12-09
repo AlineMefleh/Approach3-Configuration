@@ -23,4 +23,3 @@ for cell in cell_list:
     aggregated_alarms_sort = pd.concat([aggregated_alarms_sort, aggregated_alarms_cell_sort], axis=0)
 
 aggregated_alarms_sort.to_csv(os.path.join(config["data_directory"], config["data_saved"]))
-git
